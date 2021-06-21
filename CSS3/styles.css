@@ -1,0 +1,18 @@
+.box {
+  height: 200px;
+  width: 400px;
+  border: 2px solid saddlebrown;
+  overflow: scroll;
+}
+
+.box2 {
+  height: 200px;
+  width: 400px;
+  border: 2px solid springgreen;
+  /* visibility: hidden; */
+}
+
+.images .logo {
+  height: 100px;
+  width: 100px;
+}
