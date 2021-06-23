@@ -1,7 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid gray; */
+}
+
 .top-players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+  margin-top: 20px;
 }
 
 .player {
@@ -12,4 +25,16 @@
 .player img {
   margin-right: 20px;
   height: 50px;
+}
+
+@media (max-width: 992px) {
+  .top-players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 688px) {
+  .top-players {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
