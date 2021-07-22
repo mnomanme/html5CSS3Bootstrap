@@ -1,17 +1,17 @@
 body {
-    background-color: aqua;
+	background-color: aqua;
 }
 
 h1 {
-    color: lightcoral;
-    margin-top: 100px;
+	color: lightcoral;
+	margin-top: 100px;
 }
 
 hr {
-    border-top: 2px solid red;
+	border-top: 2px solid red;
 }
 
 #flex-container {
-    height: 100px;
-    background-color: aqua;
+	height: 100px;
+	background-color: aqua;
 }

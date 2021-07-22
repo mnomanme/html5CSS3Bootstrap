@@ -1,109 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Media Query</title>
-    <style>
-      .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Media Query</title>
+		<style>
+			.container {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				max-width: 1200px;
+				margin: 0 auto;
+			}
 
-      .food {
-        border: 3px solid lightgrey;
-        border-radius: 30px;
-        margin: 10px;
-        width: 350px;
-      }
+			.food {
+				border: 3px solid lightgrey;
+				border-radius: 30px;
+				margin: 10px;
+				width: 350px;
+			}
 
-      .food img {
-        width: 100%;
-      }
+			.food img {
+				width: 100%;
+			}
 
-      @media (max-width: 760px) {
-        .container {
-          flex-direction: column;
-        }
+			@media (max-width: 760px) {
+				.container {
+					flex-direction: column;
+				}
 
-        .container .food {
-          background-color: chocolate;
-        }
-      }
+				.container .food {
+					background-color: chocolate;
+				}
+			}
 
-      @media (min-width: 1200px) {
-        .container .food {
-          background-color: darkcyan;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-          blanditiis repellat explicabo iste autem reprehenderit ducimus
-          mollitia ipsum esse sed similique beatae porro incidunt nulla eligendi
-          dignissimos maxime, sequi dicta voluptates corporis consequuntur magni
-          qui ipsa. Minima error nam perferendis.
-        </p>
-      </div>
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Distinctio adipisci cumque provident in quam modi ex, quas architecto
-          libero et, temporibus excepturi exercitationem a, corporis dicta odit
-          rerum quos ullam ipsa. Ut fuga incidunt itaque necessitatibus qui
-          laborum sequi, aut nostrum eligendi quo recusandae minima doloribus.
-          Aliquam, magni.
-        </p>
-      </div>
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Doloremque quam temporibus et iure minima perspiciatis amet
-          consectetur, ducimus ullam nisi aliquam, error tenetur nam sunt ex
-          corporis quis quasi eum aperiam, libero quisquam? Quo corrupti dolor
-          incidunt ad nam, ut consectetur autem sit est velit iusto dignissimos
-          animi.
-        </p>
-      </div>
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Rerum libero repudiandae consequuntur quibusdam sequi commodi
-          necessitatibus repellat consequatur at maiores velit facere cumque
-          ratione et officia praesentium eaque non corporis iusto reprehenderit,
-          corrupti nostrum atque. Eos est reiciendis provident accusamus iste
-          nostrum, odit, officiis quas quasi consectetur neque?
-        </p>
-      </div>
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Optio, voluptatibus illum explicabo quaerat facilis placeat, vitae
-          pariatur, ab eveniet quas dolore quod modi! Culpa et maxime eos
-          aliquid, consequatur, voluptas suscipit velit ab ipsa labore ullam
-          reiciendis earum doloribus. Fuga facere, quia impedit nesciunt
-          possimus velit libero sapiente?
-        </p>
-      </div>
-      <div class="food">
-        <img src="./images/food.jpg" alt="" />
-        <p>
-          Sequi mollitia vel cumque aut nemo rerum dicta voluptate officia,
-          molestiae maxime facilis exercitationem vero quasi corporis eos
-          maiores quas reprehenderit dolor! Labore laborum velit cumque error
-          quis ullam itaque! Earum aliquam, voluptatibus perferendis expedita
-          deserunt ratione culpa eius porro.
-        </p>
-      </div>
-    </div>
-  </body>
+			@media (min-width: 1200px) {
+				.container .food {
+					background-color: darkcyan;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic blanditiis repellat explicabo iste autem reprehenderit ducimus mollitia ipsum esse sed similique beatae porro incidunt nulla eligendi dignissimos maxime, sequi dicta voluptates corporis consequuntur magni qui ipsa.
+					Minima error nam perferendis.
+				</p>
+			</div>
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>
+					Distinctio adipisci cumque provident in quam modi ex, quas architecto libero et, temporibus excepturi exercitationem a, corporis dicta odit rerum quos ullam ipsa. Ut fuga incidunt itaque necessitatibus qui laborum sequi, aut nostrum eligendi quo recusandae minima doloribus.
+					Aliquam, magni.
+				</p>
+			</div>
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>Doloremque quam temporibus et iure minima perspiciatis amet consectetur, ducimus ullam nisi aliquam, error tenetur nam sunt ex corporis quis quasi eum aperiam, libero quisquam? Quo corrupti dolor incidunt ad nam, ut consectetur autem sit est velit iusto dignissimos animi.</p>
+			</div>
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>
+					Rerum libero repudiandae consequuntur quibusdam sequi commodi necessitatibus repellat consequatur at maiores velit facere cumque ratione et officia praesentium eaque non corporis iusto reprehenderit, corrupti nostrum atque. Eos est reiciendis provident accusamus iste nostrum,
+					odit, officiis quas quasi consectetur neque?
+				</p>
+			</div>
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>
+					Optio, voluptatibus illum explicabo quaerat facilis placeat, vitae pariatur, ab eveniet quas dolore quod modi! Culpa et maxime eos aliquid, consequatur, voluptas suscipit velit ab ipsa labore ullam reiciendis earum doloribus. Fuga facere, quia impedit nesciunt possimus velit
+					libero sapiente?
+				</p>
+			</div>
+			<div class="food">
+				<img src="./images/food.jpg" alt="" />
+				<p>
+					Sequi mollitia vel cumque aut nemo rerum dicta voluptate officia, molestiae maxime facilis exercitationem vero quasi corporis eos maiores quas reprehenderit dolor! Labore laborum velit cumque error quis ullam itaque! Earum aliquam, voluptatibus perferendis expedita deserunt
+					ratione culpa eius porro.
+				</p>
+			</div>
+		</div>
+	</body>
 </html>
